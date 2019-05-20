@@ -10,7 +10,7 @@ class EmailParser
   
   def initialize(emails)
     emails.split(", "||" ")
-    binding.pry
+    #binding.pry
   end 
   
   
