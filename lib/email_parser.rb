@@ -10,10 +10,10 @@ class EmailParser
   @emails = []
   
   def initialize(emails)
-    
+    @emails = emails
   end 
   
-  def parse(emails)
+  def parse
    @emails = emails.split(", "||" ")
   end  
     
