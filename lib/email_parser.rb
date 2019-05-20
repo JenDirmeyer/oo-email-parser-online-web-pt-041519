@@ -14,7 +14,7 @@ class EmailParser
   end 
   
   def parse(emails)
-    emails.split(", "||" ")
+   @emails = emails.split(", "||" ")
   end  
     
   
